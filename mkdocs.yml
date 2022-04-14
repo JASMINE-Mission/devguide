@@ -13,7 +13,8 @@ copyright: JASMINE E2E 2022
 theme:
   name: "material"
   icon:
-    logo: logo
+    logo: material/star-shooting-outline
+  favicon: assets/images/jasmine_outline.png 
   languatge: "en"
   palette:
     scheme: default
