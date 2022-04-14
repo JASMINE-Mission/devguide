@@ -612,18 +612,18 @@
 </code></pre></div>
 <p>以下の 2 つのモジュールは <code>pip</code> では入らなかったので, <code>github</code> より入れました.</p>
 <div class="highlight"><pre><span></span><code><span class="gp"># </span>ソースを展開するディレクトリに移動<span class="o">(</span>たとえば, <span class="nv">$HOME</span>/srcdir<span class="o">)</span>
-<span class="go">wget https://github.com/astropy/astropy-helpers/archive/master.zip</span>
-<span class="go">mv master.zip astropy-helpers-master.zip</span>
-<span class="go">unzip   astropy-helpers-master.zip</span>
-<span class="go">cd astropy-helpers-master</span>
-<span class="go">python3 setup.py install --user</span>
+<span class="gp">$ </span>wget https://github.com/astropy/astropy-helpers/archive/master.zip
+<span class="gp">$ </span>mv master.zip astropy-helpers-master.zip
+<span class="gp">$ </span>unzip   astropy-helpers-master.zip
+<span class="gp">$ </span><span class="nb">cd</span> astropy-helpers-master
+<span class="gp">$ </span>python3 setup.py install --user
 
-<span class="go">cd ..</span>
-<span class="go">wget https://github.com/ericmandel/pyds9/archive/master.zip</span>
-<span class="go">mv master.zip pyds9-master.zip</span>
-<span class="go">unzip pyds9-master.zip</span>
-<span class="go">cd pyds9-master</span>
-<span class="go">python3 setup.py install --user</span>
+<span class="gp">$ </span><span class="nb">cd</span> ..
+<span class="gp">$ </span>wget https://github.com/ericmandel/pyds9/archive/master.zip
+<span class="gp">$ </span>mv master.zip pyds9-master.zip
+<span class="gp">$ </span>unzip pyds9-master.zip
+<span class="gp">$ </span><span class="nb">cd</span> pyds9-master
+<span class="gp">$ </span>python3 setup.py install --user
 </code></pre></div>
 <p>以上で, python の環境が整った.</p>
 <h2 id="_3">開発ツールの整備</h2>
