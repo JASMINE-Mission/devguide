@@ -80,9 +80,9 @@ $ git checkout -b new/hogehoge
 
 ドキュメントの追加が完了したら `git push` をして GitHub で `develop` ブランチに pull request を送ってください. pull request が承認されたら管理人が GitHub Pages に反映させます. 最新のドキュメントが以下の URL で公開されるようになります.
 
-- https://github.com/JASMINE-Mission/devguide/
+- https://jasmine-mission.github.io/devguide/
 
 
 [material]: https://squidfunk.github.io/mkdocs-material/
 [cheetsheet]: https://qiita.com/Qiita/items/c686397e4a0f4f11683d
-[ghpage]: https://github.com/JASMINE-Mission/devguide/
+[ghpage]: https://jasmine-mission.github.io/devguide/
