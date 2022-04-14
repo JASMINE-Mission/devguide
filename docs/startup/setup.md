@@ -32,18 +32,18 @@ docopt matplotlib scipy opencv-python selenium pyvirtualdisplay pyFFTW skyfield 
 
 ``` console
 # ソースを展開するディレクトリに移動(たとえば, $HOME/srcdir)
-wget https://github.com/astropy/astropy-helpers/archive/master.zip
-mv master.zip astropy-helpers-master.zip
-unzip   astropy-helpers-master.zip
-cd astropy-helpers-master
-python3 setup.py install --user
+$ wget https://github.com/astropy/astropy-helpers/archive/master.zip
+$ mv master.zip astropy-helpers-master.zip
+$ unzip   astropy-helpers-master.zip
+$ cd astropy-helpers-master
+$ python3 setup.py install --user
 
-cd ..
-wget https://github.com/ericmandel/pyds9/archive/master.zip
-mv master.zip pyds9-master.zip
-unzip pyds9-master.zip
-cd pyds9-master
-python3 setup.py install --user
+$ cd ..
+$ wget https://github.com/ericmandel/pyds9/archive/master.zip
+$ mv master.zip pyds9-master.zip
+$ unzip pyds9-master.zip
+$ cd pyds9-master
+$ python3 setup.py install --user
 ```
 
 以上で, python の環境が整った.
