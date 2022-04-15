@@ -56,6 +56,9 @@ markdown_extensions:
       check_paths: True
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - トップページ: index.md
@@ -68,7 +71,7 @@ nav:
     - startup/git.md
   - チュートリアル:
     - dummy: dummy
-  - reference.md
-  - Links:
-    - JASMINE Project: http://jasmine.nao.ac.jp/
-    - GitHub Group: https://github.com/JASMINE-Mission/
+  - 関連情報:
+    - reference.md
+    - "JASMINE Project &#xF08E;": http://jasmine.nao.ac.jp/
+    - "GitHub Group &#xF08E;": https://github.com/JASMINE-Mission/
