@@ -65,6 +65,7 @@ nav:
     - startup/clearcode.md
     - startup/review.md
     - startup/test.md
+    - startup/git.md
   - チュートリアル:
     - dummy: dummy
   - reference.md
