@@ -62,6 +62,7 @@ nav:
   - はじめに:
     - startup/setup.md
     - startup/guideline.md
+    - startup/clearcode.md
     - startup/review.md
     - startup/test.md
   - チュートリアル:
