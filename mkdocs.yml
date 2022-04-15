@@ -14,7 +14,7 @@ theme:
   name: "material"
   icon:
     logo: material/star-shooting-outline
-  favicon: assets/images/jasmine_outline.png 
+  favicon: assets/images/jasmine_outline.png
   languatge: "en"
   palette:
     scheme: default
@@ -52,6 +52,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.snippets:
+      base_path: 'docs'
       check_paths: True
   - pymdownx.arithmatex:
       generic: true
@@ -68,4 +69,4 @@ nav:
   - reference.md
   - Links:
     - JASMINE Project: http://jasmine.nao.ac.jp/
-    - JASMINE GitHub: https://github.com/JASMINE-Mission
+    - GitHub Group: https://github.com/JASMINE-Mission/
