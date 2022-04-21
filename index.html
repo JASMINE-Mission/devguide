@@ -220,9 +220,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          トップページ
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         トップページ
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    このドキュメントについて
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -292,6 +323,20 @@
   
   
     <li class="md-nav__item">
+      <a href="startup/clearcode/" class="md-nav__link">
+        透明性･保守性のあるコード
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="startup/review/" class="md-nav__link">
         レビュープロセス
       </a>
@@ -307,7 +352,21 @@
   
     <li class="md-nav__item">
       <a href="startup/test/" class="md-nav__link">
-        コードのテスト
+        テスト開発の指針
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="startup/git/" class="md-nav__link">
+        git のつかいかた
       </a>
     </li>
   
@@ -377,41 +436,26 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="reference/" class="md-nav__link">
-        参考資料
-      </a>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
     
       
     
     <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
       
-        <label class="md-nav__link" for="__nav_5">
-          Links
+        <label class="md-nav__link" for="__nav_4">
+          関連情報
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Links" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+      <nav class="md-nav" aria-label="関連情報" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Links
+          関連情報
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -421,8 +465,8 @@
   
   
     <li class="md-nav__item">
-      <a href="http://jasmine.nao.ac.jp/" class="md-nav__link">
-        JASMINE Project
+      <a href="reference/" class="md-nav__link">
+        参考資料･書籍
       </a>
     </li>
   
@@ -435,8 +479,22 @@
   
   
     <li class="md-nav__item">
-      <a href="https://github.com/JASMINE-Mission" class="md-nav__link">
-        JASMINE GitHub
+      <a href="http://jasmine.nao.ac.jp/" class="md-nav__link">
+        JASMINE Project &#xF08E;
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/JASMINE-Mission/" class="md-nav__link">
+        GitHub Group &#xF08E;
       </a>
     </li>
   
@@ -469,6 +527,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    このドキュメントについて
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -482,6 +555,12 @@
 
 <h1 id="jasmine-developers-guide">JASMINE Developer&rsquo;s Guide</h1>
 <p>JASMINE のソフトウェアチームで開発をするために必要な情報をまとめたドキュメントを提供します. 環境構築のメモ, チュートリアルや役立つ情報などを記載します.</p>
+<h2 id="_1">このドキュメントについて</h2>
+<p>ドキュメントは GitHub の <a href="https://github.com/JASMINE-Mission">JASMINE-Mission</a> グループの<a href="https://github.com/JASMINE-Mission/devguide/tree/develop">リポジトリ</a> で管理されています. ドキュメントを追加する方法は<a href="https://github.com/JASMINE-Mission/devguide/tree/develop">README.md</a> に記載してあります. 残しておきたいメモ, 備忘録などがありましたらぜひドキュメントのアップデートに貢献してください.</p>
+<div class="admonition question">
+<p class="admonition-title">ドキュメントに不備を見つけたら</p>
+<p>軽微そうなものであれば JASMINE E2E Slack に報告してください. きっと該当部分を編集した人が反応してくれるでしょう……. 変更箇所が多岐にわたるようでしたら GitHub の <a href="https://github.com/JASMINE-Mission/devguide/issues">issues</a> に投稿してください. チーム内で議論した後に改定する動きが出てくると思います.</p>
+</div>
 
               
             </article>
