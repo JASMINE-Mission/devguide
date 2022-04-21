@@ -14,7 +14,7 @@ theme:
   name: "material"
   icon:
     logo: material/star-shooting-outline
-  favicon: assets/images/jasmine_outline.png 
+  favicon: assets/images/jasmine_outline.png
   languatge: "en"
   palette:
     scheme: default
@@ -52,20 +52,26 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.snippets:
+      base_path: 'docs'
       check_paths: True
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 nav:
   - トップページ: index.md
   - はじめに:
     - startup/setup.md
     - startup/guideline.md
+    - startup/clearcode.md
     - startup/review.md
     - startup/test.md
+    - startup/git.md
   - チュートリアル:
     - dummy: dummy
-  - reference.md
-  - Links:
-    - JASMINE Project: http://jasmine.nao.ac.jp/
-    - JASMINE GitHub: https://github.com/JASMINE-Mission
+  - 関連情報:
+    - reference.md
+    - "JASMINE Project &#xF08E;": http://jasmine.nao.ac.jp/
+    - "GitHub Group &#xF08E;": https://github.com/JASMINE-Mission/
