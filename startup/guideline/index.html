@@ -696,14 +696,14 @@
 <span class="normal">24</span>
 <span class="normal">25</span></pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="ch">#!/usr/bin/env python</span>
 <span class="c1"># -*- coding: utf-8 -*-</span>
-<span class="sd">&#39;&#39;&#39; Python Style Example</span>
+<span class="sd">&quot;&quot;&quot; Python Style Example</span>
 
 <span class="sd">This file illustrates an example of coding styles in Python.</span>
-<span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">&quot;&quot;&quot;</span>
 
 
 <span class="k">def</span> <span class="nf">add_two_lists</span><span class="p">(</span><span class="n">list_a</span><span class="p">,</span> <span class="n">list_b</span><span class="p">):</span>
-    <span class="sd">&#39;&#39;&#39; calculate two variables</span>
+    <span class="sd">&quot;&quot;&quot; Add elements in two lists</span>
 
 <span class="sd">    Returns a new list containing the sum of the elements</span>
 <span class="sd">    obtained from the two lists. Note that the two lists</span>
@@ -715,7 +715,7 @@
 
 <span class="sd">    Returns:</span>
 <span class="sd">      A new list with a series of added elements.</span>
-<span class="sd">    &#39;&#39;&#39;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">list_a</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">list_b</span><span class="p">),</span> \
         <span class="s1">&#39;the two list should have the same length&#39;</span>
     <span class="k">return</span> <span class="p">[</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">list_a</span><span class="p">,</span> <span class="n">list_b</span><span class="p">)]</span>
@@ -742,7 +742,7 @@
 <h3 id="_5">コメント</h3>
 <p>主要な関数には必ず定形のコメント (ドキュメント) を付けてください. ドキュメントの付け方にはいくつか流儀がありますが, <a href="https://google.github.io/styleguide/pyguide.html">Google Python Style Guide</a> が簡潔なのでこれに従うのがよいと思います. 以下に簡単な例を示しました. 定形でドキュメントを記載することで, ドキュメント生成自動化ツール (Sphinx 等) で処理できます.</p>
 <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">some_function</span><span class="p">(</span><span class="n">arg1</span><span class="p">,</span><span class="n">arg2</span><span class="p">):</span>
-    <span class="sd">&#39;&#39;&#39; 関数の機能を 1 行で要約して記述</span>
+    <span class="sd">&quot;&quot;&quot; 関数の機能を 1 行で要約して記述</span>
 
 <span class="sd">    1 行では書けない詳細や重要な注意を記述する (optional).</span>
 
@@ -752,7 +752,7 @@
 
 <span class="sd">    Returns:</span>
 <span class="sd">      戻り値の説明</span>
-<span class="sd">    &#39;&#39;&#39;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
     <span class="o">...</span>
 </code></pre></div>
 <ul>
