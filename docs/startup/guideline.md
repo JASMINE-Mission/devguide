@@ -47,7 +47,7 @@ Python ではクラスの名前はキャメルケース (`SomeFantasticClass`) �
 
 ``` python
 def some_function(arg1,arg2):
-    ''' 関数の機能を 1 行で要約して記述
+    """ 関数の機能を 1 行で要約して記述
 
     1 行では書けない詳細や重要な注意を記述する (optional).
 
@@ -57,7 +57,7 @@ def some_function(arg1,arg2):
 
     Returns:
       戻り値の説明
-    '''
+    """
     ...
 ```
 

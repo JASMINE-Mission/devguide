@@ -25,7 +25,9 @@ $ pip3 install --user ホゲホゲ
 `ホゲホゲ` の部分は, 適宜必要なものを追加するようにしてるけれど, 現時点では以下.
 
 ```
-docopt matplotlib scipy opencv-python selenium pyvirtualdisplay pyFFTW skyfield pexpect seaborn pandas numpy-quaternion numba openpyxl tqdm pyinstaller
+docopt matplotlib scipy opencv-python selenium pyvirtualdisplay pyFFTW
+  skyfield pexpect seaborn pandas numpy-quaternion numba openpyxl tqdm
+  pyinstaller
 ```
 
 以下の 2 つのモジュールは `pip` では入らなかったので, `github` より入れました.
